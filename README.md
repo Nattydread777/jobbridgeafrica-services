@@ -1,15 +1,14 @@
-# JobBridge Africa Services - MERN Stack Application
-
-[![Frontend CI](https://github.com/PLP-MERN-Stack-Development/deployment-and-devops-essentials-Nattydread777/actions/workflows/frontend-ci.yml/badge.svg)](https://github.com/PLP-MERN-Stack-Development/deployment-and-devops-essentials-Nattydread777/actions/workflows/frontend-ci.yml)
-[![Backend CI](https://github.com/PLP-MERN-Stack-Development/deployment-and-devops-essentials-Nattydread777/actions/workflows/backend-ci.yml/badge.svg)](https://github.com/PLP-MERN-Stack-Development/deployment-and-devops-essentials-Nattydread777/actions/workflows/backend-ci.yml)
+# JobBridge Africa Services
 
 > Professional MERN Stack Development, Project Management, Database Administration, and AI Integration Services
 
+**Based in Nigeria, Delivering Globally** 🌍
+
 ## 🌟 Live Deployment
 
-- **Frontend (Vercel)**: [Coming Soon - Will be deployed]
-- **Backend API (Render)**: [Coming Soon - Will be deployed]
-- **API Documentation**: [Coming Soon]
+- **Frontend**: [Deploy to Vercel]
+- **Backend API**: [Deploy to Render]
+- **Main Platform**: [JobBridge Africa](https://jobbridgeafrica.org)
 
 ## 📋 Table of Contents
 
@@ -23,16 +22,18 @@
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 
-## 🎯 About the Project
+## 🎯 About
 
-**JobBridge Africa Services** is a comprehensive platform showcasing professional technology services, including:
+**JobBridge Africa Services** provides professional technology solutions for businesses across Africa and globally:
 
-- MERN Full Stack Development
-- Project Management (Agile/Waterfall)
-- Database Administration
-- AI Integration & Development
+- **MERN Full Stack Development** - Modern, scalable web applications
+- **Project Management** - Agile/Waterfall methodologies with proven delivery
+- **Database Administration** - Expert MongoDB and SQL database solutions
+- **AI Integration** - Cutting-edge AI solutions for business automation
 
-The platform features a client inquiry system, service portfolio, and admin dashboard for managing client requests. It serves as the service arm of **JobBridge Africa** - an AI-powered platform connecting African youth and professionals with decent work opportunities (supporting UN SDG 8).
+We serve startups, SMEs, and enterprise clients with 24/7 support. Our platform features a comprehensive service portfolio, client inquiry system, and streamlined project initiation process.
+
+**Supporting UN SDG 8**: As the service delivery arm of JobBridge Africa, we create decent work opportunities for African tech professionals while delivering world-class solutions globally.
 
 ## ✨ Features
 
@@ -101,8 +102,8 @@ The platform features a client inquiry system, service portfolio, and admin dash
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/PLP-MERN-Stack-Development/deployment-and-devops-essentials-Nattydread777.git
-   cd deployment-and-devops-essentials-Nattydread777
+   git clone https://github.com/Nattydread777/jobbridgeafrica-services.git
+   cd jobbridgeafrica-services
    ```
 
 2. **Backend Setup**
@@ -184,33 +185,13 @@ See detailed guide: [deployment/VERCEL_DEPLOYMENT.md](deployment/VERCEL_DEPLOYME
 
 ## 🔄 CI/CD Pipeline
 
-### Continuous Integration
+CI/CD workflows have been configured for automated testing and deployment. GitHub Actions can be re-enabled by adding workflows with proper PAT permissions.
 
-- **Frontend CI**: Runs on push to `frontend/**`
+### Planned Workflows
 
-  - Linting
-  - Testing
-  - Build verification
-  - Artifact upload
-
-- **Backend CI**: Runs on push to `backend/**`
-  - Linting
-  - Testing
-  - Security audit
-  - Test coverage
-
-### Continuous Deployment
-
-- **Frontend CD**: Auto-deploy to Vercel on push to `main`
-- **Backend CD**: Auto-deploy to Render on push to `main`
-- Health checks after deployment
-
-### GitHub Actions Workflows
-
-- `.github/workflows/frontend-ci.yml`
-- `.github/workflows/backend-ci.yml`
-- `.github/workflows/frontend-cd.yml`
-- `.github/workflows/backend-cd.yml`
+- Frontend CI/CD: Automated testing and deployment to Vercel
+- Backend CI/CD: Automated testing and deployment to Render
+- Quality checks: Linting, security audits, test coverage
 
 ## 📚 API Documentation
 
@@ -272,30 +253,15 @@ Content-Type: application/json
 
 ## 📸 Screenshots
 
-### Home Page
+Screenshots and live demos will be added after deployment.
 
-![Home Page](screenshots/home.png)
-_Coming Soon - Screenshot of landing page_
+### Planned Documentation
 
-### Services Page
-
-![Services](screenshots/services.png)
-_Coming Soon - Screenshot of services showcase_
-
-### Contact Form
-
-![Contact](screenshots/contact.png)
-_Coming Soon - Screenshot of contact form_
-
-### Admin Dashboard
-
-![Admin Dashboard](screenshots/admin.png)
-_Coming Soon - Screenshot of admin panel_
-
-### CI/CD Pipeline
-
-![GitHub Actions](screenshots/github-actions.png)
-_Coming Soon - Screenshot of CI/CD in action_
+- Home page showcase
+- Services portfolio
+- Contact form interface
+- Admin dashboard
+- Deployment pipeline
 
 ## 🔧 Development
 
@@ -338,25 +304,22 @@ node utils/seedDatabase.js
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
-
-This project is licensed under the MIT License.
-
-## 👤 Author
+## 👤 Contact
 
 **JobBridge Africa Services**
 
-- Website: [Coming Soon]
-- Email: info@jobbridgeservices.com
-- Main Platform: [JobBridge Africa](https://jobbridgeafrica.com)
+- 📧 Email: info@jobbridgeafrica.com
+- 📱 Phone: +234 807 320 8945
+- 💬 WhatsApp: [Chat Now](https://wa.me/2348073208945)
+- 🌍 Location: Delta State, Nigeria (WAT)
+- 🌐 Main Platform: [JobBridge Africa](https://jobbridgeafrica.org)
 
-## 🙏 Acknowledgments
+**Global Reach**: Serving clients across Africa, Europe, and North America
 
-- Part of PLP MERN Stack Development Program
-- Supporting UN SDG 8: Decent Work and Economic Growth
-- Built with modern web technologies and best practices
+## 🙏 About
+
+Built with modern MERN stack technologies and best practices. Supporting UN SDG 8: Decent Work and Economic Growth through quality technology services and creating opportunities for African tech professionals.
 
 ---
 
-**Week 7 Assignment - Deployment and DevOps Essentials**  
-_PLP MERN Stack Development Program_
+© 2025 JobBridge Africa Services. All rights reserved.
